@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --index: calc(1vw + 1vh);
+}
+
+@layer base {
+    h1 {
+        font-size: calc(var(--index)*3);
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: calc(var(--index)*2);
+    }
+
+    h3 {
+        font-size: calc(var(--index)*1);
+    }
+
+    p {
+        font-size: calc(var(--index)*0.8);
+        color: white;
+    }
+
+    body {
+        box-sizing: border-box
+    }
+
+    @media screen and (max-width: 1025px) {
+        h1 {
+            font-size: calc(var(--index)*4);
+        }
+
+        p {
+            font-size: calc(var(--index)*1.6);
+            color: white;
+        }
+    }
+
+    .mobile-screen {
+        height: calc(var(--index)*75);
+    }
+
+}
+
+.imageBackground {
+    object-fit: cover;
+}
+
+.landingText {
+    position: relative;
+    z-index: 1;
+}
+
+.safeImage {
+    height: calc(var(--index)*30);
+}
+
+
+
+@layer components {
+    .btn-green {
+        @apply bg-green font-normal text-white text-[calc(var(--index)*.8);] py-2 px-4 rounded-lg transition-colors
+    }
+
+    .btn-green:hover {
+        @apply bg-greenlight
+    }
+
+    .section-screen {
+        @apply w-screen h-screen
+    }
+
+    @media screen and (max-width: 1025px) {
+        .btn-green {
+            @apply text-[calc(var(--index)*1.8);]
+        }
+    }
+}
+
+.popap {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    background-color: rgba(255, 183, 0, 0.3);
+    /* Серый цвет с прозрачностью 30% */
+    z-index: 999;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popap.active {
+    transform: scale(1);
+}
+
+.modal {
+    position: relative;
+
+    z-index: 1000;
+    width: 80vw;
+    height: 80vh;
+    background-color: rgba(205, 191, 61, 0.941);
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.closeButton {
+    position: absolute;
+    background-color: rgba(205, 191, 61, 0.941);
+    border-radius: 15px;
+    width: 55px;
+    height: 55px;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closeButton::after,
+.closeButton::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 3px; /* Увеличиваем высоту для лучшей видимости */
+    border-radius: 2px;
+    background-color: red;
+}
+
+.closeButton::after {
+    transform: rotate(45deg);
+}
+
+.closeButton::before {
+    transform: rotate(-45deg);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 40px;
+}
+
+.image {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+.input {
+    width: 60%;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.input-radio {}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

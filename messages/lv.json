@@ -1,0 +1,267 @@
+{
+    "Navigation":{
+        "main":"Galvena",
+        "card":"Karte",
+        "app":"Applikacija",
+        "safe":"Drošība",
+        "eco":"Ekoloģija",
+        "button":"Saņemt karti"
+    },
+    "Index": {
+      "smallTitle": "Tagad tas ir tik ērti!",
+      "title":"Vienotā atlaižu karte - shome.",
+      "textForMain":"Krājiet atlaides, pārvaldiet čekus – viss ar vienu karti, vienā lietotnē.",
+      "second1":"Vienotā karte un lietotne Shome pilnībā apvienos visas jūsu daudzas atlaižu kartes un iecienītākās bonusa programmas. Tagad nav nepieciešams nēsāt līdzi daudz atlaižu karšu un glabāt pirkumu čekus.",
+      "second2":"Glabājiet un pārvaldiet savas atlaides un čekus tieši no sava viedtālruņa.",
+      "button": "Pasūtīt karti",
+      "thirdTitle":"Pasūtiet karti tagad bez maksas",
+      "thirdText1": "Projekts Shome jau apvieno visas klientu kartes no lielākajiem mazumtirgotājiem un pakalpojumu sniedzējiem.",
+      "thirdText2":"Pasūtiet karti jau šodien un saņemiet to BEZ MAKSAS pa pastu. Pēc oficiālās palaišanas (apvienošanas) par kartes pasūtīšanu tiks iekasēta maksa no 10 EUR.",  
+      "thirdButton":"Saņemt karti",
+      "fisicCardTitle": "Fiziskā karte",
+      "fisicCardText":"Vienotā karte ir pieejama jau tik ierastajā - plastmasas formātā un tiek izgatavota no videi draudzīga materiāla.",
+      "phoneAppTitle":"Lietotne",
+      "phoneAppText":"Atlaižu karte vienmēr ir ar jums jūsu viedtālrunī.",
+      "appChild1":"Viens QR kods visiem tirdzniecības punktiem",
+      "appChild2":"Jūsu pirkumu statistika ar čekiem",
+      "appChild3":"Speciālie piedāvājumi tieši jums",
+      "appChild4":"Noderīgi padomi katrai dienai",
+      "helpersTitle":"Palīgi",
+      "helpers1":"Saņemiet unikālas, personalizētas atlaides un akcijas tieši lietotnē.",
+      "helpers2":"Mūsu roboti palīgi palīdzēs jums analizēt jūsu statistiku un vajadzības - jūs saņemsiet ieteikumus, kas līdzinās personīgā analītiķa padomiem.",
+      
+      "fatherText": "Glabājiet visus savus čekus digitālā formātā, lai tie būtu ērti pieejami un pārvaldāmi.",
+      "pigText":"Automātiski nosūtiet elektroniskos čekus Valsts ieņēmumu dienestam (VID) nodokļu atgūšanai.",
+      "safetyTitle":"Drošība",
+      "safetyText":"Pēc vienotās kartes Shome saņemšanas jums vairs nebūs jāatstāj personīgā informācija katrā iestādē. Shome rūpējas par jūsu drošību. Jūsu dati būs droši aizsargāti saskaņā ar privātuma politiku.",
+      "ecoTitle":"Ekoloģiskums",
+      "ecoText1":"Izmantojot shome karti, jūs samazināt plastmasas un papīra izmantošanu.",
+      "ecoText2":"Viena karte no videi draudzīga materiāla aizstās desmitiem citu un būtiski ietaupīs vietu jūsu makā."
+    },
+    "Policy":{
+      "title": "Privātuma politika",
+        "blocks": {
+          "intro": {
+            "title": "1. Ievads",
+            "text": "Šī Privātuma politika apraksta, kā [Uzņēmuma nosaukums] (\"Uzņēmums\") apstrādā jūsu personas datus, kad izmantojat mūsu vietni un pakalpojumus. Mūsu mērķis ir nodrošināt jūsu datu drošību un aizsardzību."
+          },
+          "data": {
+            "title": "2. Kādi dati tiek vākti",
+            "texts": {
+              "point1": "2.1. Personīgā informācija: vārds, uzvārds, e-pasta adrese, tālruņa numurs. ",
+              "point2": "2.2. Tehniskā informācija: IP adrese, pārlūkprogrammas veids, operētājsistēma, piekļuves laiks. ",
+              "point3": "2.3. Transakcijas informācija: pirkumu vēsture, maksājumu informācija.",
+              "point4": "2.4. Lietotāja ģenerētā informācija: aktivitātes vietnē, saglabātie iepirkumu saraksti."
+            }
+          },
+          "usage": {
+            "title": "3. Datu izmantošana",
+            "texts": {
+              "point1": "3.1. Personīgā informācija tiek izmantota pasūtījumu apstrādei un saziņai ar lietotāju.",
+              "point2": "3.2. Tehniskā informācija tiek izmantota vietnes darbības uzlabošanai un analītikai. ",
+              "point3": "3.3. Transakcijas informācija tiek izmantota pirkumu vēstures uzturēšanai un personalizētiem piedāvājumiem."
+            }
+          },
+          "safe": {
+            "title": "4. Datu aizsardzība",
+            "texts": {
+              "point1": "4.1. Uzņēmums veic visus nepieciešamos pasākumus, lai aizsargātu jūsu personas datus no nesankcionētas piekļuves, izmaiņām, izpaušanas vai iznīcināšanas.",
+              "point2": "4.2. Personas dati tiek glabāti drošā vidē un tiek šifrēti, kur tas ir nepieciešams."
+            }
+          },
+          "transfer": {
+            "title": "5. Datu koplietošana",
+            "texts": {
+              "point1": "5.1. Uzņēmums neizpauž personas datus trešajām personām, izņemot gadījumus, kad to pieprasa likums vai tas ir nepieciešams pakalpojuma sniegšanai (piemēram, piegādes pakalpojumi). ",
+              "point2": "5.2. Personas dati var tikt koplietoti ar partneriem, kas sniedz pakalpojumus mūsu vārdā, ievērojot konfidencialitātes nosacījumus."
+            }
+          },
+          "users": {
+            "title": "6. Lietotāja tiesības",
+            "texts": {
+              "point1": "6.1. Jums ir tiesības piekļūt saviem datiem, tos labot, dzēst un ierobežot to apstrādi.",
+              "point2": "6.2. Jums ir tiesības iebilst pret savu personas datu apstrādi un atsaukt savu piekrišanu.",
+              "point3": "6.3. Lai izmantotu savas tiesības, sazinieties ar mums, izmantojot norādīto kontaktinformāciju."
+            }
+          },
+          "cookies": {
+            "title": "7. Sīkdatņu izmantošana",
+            "texts": {
+              "point1": "7.1. Mūsu vietne izmanto sīkdatnes, lai uzlabotu funkcionalitāti un lietošanas ērtumu.",
+              "point2": "7.2. Jūs varat pārvaldīt sīkdatņu iestatījumus savā pārlūkprogrammā, tomēr tas var ietekmēt vietnes darbību."
+            }
+          },
+          "changes": {
+            "title": "8. Izmaiņas privātuma politikā",
+            "texts": {
+              "point1": "8.1. Uzņēmums patur tiesības veikt izmaiņas šajā privātuma politikā. Izmaiņas stājas spēkā ar to publicēšanas brīdi vietnē. ",
+              "point2": "8.2. Turpinot izmantot vietni pēc izmaiņu veikšanas, jūs piekrītat atjauninātajiem noteikumiem."
+            }
+          },
+          "constacts": {
+            "title": "9. Kontaktinformācija",
+            "texts": {
+              "point1": "Ja jums ir jautājumi vai ieteikumi, lūdzu, sazinieties ar mums pa e-pastu: shome.latvija@gmail.com"
+              
+            }
+          }
+        }
+      },
+      "Cookie":{
+        "title": "Sīkdatņu politika",
+          "blocks": {
+            "intro": {
+              "title": "1. Ievads",
+              "text": "Šī Sīkdatņu politika izskaidro, kā [Uzņēmuma nosaukums] (\"Uzņēmums\") izmanto sīkdatnes savā vietnē. Sīkdatnes palīdz uzlabot vietnes funkcionalitāti un lietotāju pieredzi. Izmantojot mūsu vietni, jūs piekrītat sīkdatņu izmantošanai saskaņā ar šo politiku."
+            },
+            "data": {
+              "title": "2. Kādas sīkdatnes mēs izmantojam",
+              "texts": {
+                "point1": "2.1. Obligātās sīkdatnes: Šīs sīkdatnes ir nepieciešamas, lai vietne darbotos pareizi, un tās vienmēr ir iestatītas, kad apmeklējat vietni.",
+                "point2": "2.2. Analītiskās sīkdatnes: Šīs sīkdatnes apkopo informāciju par to, kā lietotāji izmanto vietni, palīdzot mums uzlabot tās darbību.",
+                "point3": "2.3. Reklāmas sīkdatnes: Šīs sīkdatnes tiek izmantotas, lai piedāvātu personalizētas reklāmas, pamatojoties uz jūsu interesēm.",
+                "point4": "2.4. Funkcionālās sīkdatnes: Šīs sīkdatnes ļauj vietnei atcerēties jūsu izvēles (piemēram, valodas izvēli) un piedāvā uzlabotas, personalizētas funkcijas."
+              }
+            },
+            "usage": {
+              "title": "3. Kā mēs izmantojam sīkdatnes",
+              "texts": {
+                "point1": "3.1. Lietotāju autentifikācijai: Lai jūs varētu pieteikties un pārlūkot vietni, saglabājot sesijas stāvokli.",
+                "point2": "3.2. Drošībai: Lai aizsargātu vietni no krāpšanas un ļaunprātīgas izmantošanas.",
+                "point3": "3.3. Vietnes analītikai: Lai analizētu apmeklētāju uzvedību un uzlabotu vietnes struktūru un saturu.",
+                "point4": "3.4. Reklāmām: Lai rādītu personalizētas reklāmas un novērtētu reklāmu efektivitāti."
+              }
+            },
+            "safe": {
+              "title": "4. Kā pārvaldīt sīkdatnes",
+              "texts": {
+                "point1": "4.1. Pārlūkprogrammas iestatījumi: Jūs varat pārvaldīt sīkdatnes, mainot pārlūkprogrammas iestatījumus. Jūs varat izvēlēties bloķēt visas sīkdatnes vai saņemt brīdinājumu, kad sīkdatne tiek nosūtīta.",
+                "point2": "4.2. Trešās puses rīki: Dažas trešās puses piedāvā rīkus, kas palīdz jums pārvaldīt un bloķēt sīkdatnes.",
+                "point3": "4.3. Atsaukšana un dzēšana: Jūs varat atsaukt savu piekrišanu sīkdatņu izmantošanai un dzēst sīkdatnes, kas jau ir iestatītas jūsu ierīcē, izdzēšot tās no pārlūkprogrammas iestatījumiem."
+              }
+            },
+            "transfer": {
+              "title": "5. Kontaktinformācija",
+              "texts": {
+                "point1": "Ja jums ir jautājumi vai ieteikumi par mūsu sīkdatņu politiku, lūdzu, sazinieties ar mums pa e-pastu: shome.latvija@gmail.com"
+              }
+            }
+          }
+        },
+        "Persone":{
+        "title": "Lietotāja līgums atlaižu kartes pasūtījumu rezervēšanai",
+          "blocks": {
+            "intro": {
+              "title": "Ievads",
+              "text": "Šis Lietotāja līgums (\"Līgums\") regulē attiecības starp jums (\"Lietotājs\") un [Uzņēmuma nosaukums] (\"Uzņēmums\") saistībā ar vietnes izmantošanu un personas datu sniegšanu atlaižu kartes pasūtījuma rezervēšanai. Lūdzu, rūpīgi izlasiet šo Līgumu pirms mūsu vietnes izmantošanas."
+            },
+            "data": {
+              "title": "1. Līguma priekšmets",
+              "texts": {
+                "point1": "1.1. Uzņēmums sniedz Lietotājam iespēju veikt atlaižu kartes pasūtījuma rezervēšanu apmaiņā pret kontaktinformācijas sniegšanu un piekrišanu personas datu apstrādei.",
+                "point2": "1.2. Lietotājs, aizpildot pasūtījuma rezervācijas formu, piekrīt šī Līguma noteikumiem un apstiprina savu piekrišanu personas datu apstrādei."
+              }
+            },
+            "usage": {
+              "title": "2. Personas dati",
+              "texts": {
+                "point1": "2.1. Lai veiktu pasūtījuma rezervāciju, Lietotājs sniedz šādus datus: vārds, uzvārds, e-pasta adrese, tālruņa numurs.",
+                "point2": "2.2. Personas dati tiks izmantoti pasūtījuma rezervācijas apstrādei, bonusu piešķiršanai, kā arī saziņai ar Lietotāju jautājumos, kas saistīti ar pakalpojumu sniegšanu.",
+                "point3": "2.3. Uzņēmums apņemas neizpaust iegūtos personas datus trešajām personām, izņemot gadījumus, kas paredzēti likumā.",
+                "point4": "2.4. Uzņēmums veic visus nepieciešamos pasākumus, lai aizsargātu personas datus no neatļautas piekļuves, izmaiņām, izpaušanas vai iznīcināšanas."
+              }
+            },
+            "safe": {
+              "title": "3. Bonusi",
+              "texts": {
+                "point1": "3.1. Lietotāji, kas veic atlaižu kartes pasūtījuma rezervāciju, saņem bonusus, kas norādīti vietnē. Bonusi var ietvert papildu atlaides, īpašus piedāvājumus un citus ieguvumus.",
+                "point2": "3.2. Uzņēmums patur tiesības mainīt bonusu piešķiršanas nosacījumus bez iepriekšēja Lietotāju informēšanas.",
+                "point3": "3.3. Bonusi var tikt anulēti vai mainīti, ja tiks atklātas Lietotāja krāpnieciskās darbības."
+              }
+            },
+            "transfer": {
+              "title": "4. Pušu saistības",
+              "texts": {
+                "point1": "4.1. Uzņēmums apņemas:",
+                "point2": "Apstrādāt personas datus atbilstoši likumam.",
+                "point3": "Nodrošināt Lietotājam informāciju par pasūtījuma rezervācijas statusu un bonusiem.",
+                "point4": "4.2. Lietotājs apņemas:",
+                "point5": "Sniegt patiesu un aktuālu personas informāciju.",
+                "point6": "Izmantot vietni atbilstoši šī Līguma un likuma prasībām.",
+                "point7": "Neveikt darbības, kas vērstas uz vietnes drošības pārkāpumiem vai neatļautas piekļuves iegūšanu Uzņēmuma resursiem."
+              }
+            },
+            "atbildiba": {
+              "title": "5. Atbildība",
+              "texts": {
+                "point1": "5.1. Uzņēmums nav atbildīgs par pakalpojumu sniegšanas neiespējamību, ko izraisījuši nepārvaramas varas apstākļi vai citi iemesli, kas nav Uzņēmuma kontrolē.",
+                "point2": "5.2. Lietotājs ir atbildīgs par sniegto personas datu patiesumu.",
+                "point3": "5.3. Uzņēmums nav atbildīgs par zaudējumiem, kas radušies vietnes nepareizas izmantošanas rezultātā no Lietotāja puses."
+              }
+            },
+            "nosacijumi": {
+              "title": "6. Līguma nosacījumu izmaiņas",
+              "texts": {
+                "point1": "6.1. Uzņēmums patur tiesības veikt izmaiņas šajā Līgumā. Izmaiņas stājas spēkā ar to publicēšanas brīdi vietnē.",
+                "point2": "6.2. Vietnes izmantošanas turpināšana pēc izmaiņu veikšanas nozīmē Lietotāja piekrišanu jaunajiem nosacījumiem."
+              }
+            },
+            "noteikumi": {
+              "title": "7. Noslēguma noteikumi",
+              "texts": {
+                "point1": "7.1. Šo Līgumu regulē Latvijas Republikas likumdošana.",
+                "point2": "7.2. Visi strīdi, kas rodas saistībā ar šī Līguma izpildi, tiek risināti Latvijas Republikas likumdošanā noteiktajā kārtībā.",
+                "point3": "7.3. Ja kāds šī Līguma nosacījums tiek atzīts par spēkā neesošu vai neizpildāmu, pārējie nosacījumi paliek spēkā."
+              }
+            },
+            "kontakti": {
+              "title": "8. Kontaktinformācija",
+              "texts": {
+                "point1": "Ja jums ir jautājumi vai ieteikumi, lūdzu, sazinieties ar mums pa e-pastu: shome.latvija@gmail.com"
+              }
+            },
+            "atgriesanas": {
+              "title": "9. Atteikuma un atgriešanas politika",
+              "texts": {
+                "point1": "9.1. Lietotājam ir tiesības atcelt pasūtījuma rezervāciju līdz atlaižu kartes saņemšanas brīdim.",
+                "point2": "9.2. Lai atceltu pasūtījuma rezervāciju, nepieciešams sazināties ar Uzņēmuma atbalsta dienestu, izmantojot kontaktinformāciju, kas norādīta 8. sadaļā.",
+                "point3": "9.3. Pasūtījuma rezervācijas atcelšanas gadījumā bonusi, kas piešķirti par pasūtījuma rezervāciju, tiek anulēti."
+              }
+            },
+            "politika": {
+              "title": "10. Sīkdatņu politika",
+              "texts": {
+                "point1": "10.1. Vietne izmanto sīkdatnes, lai uzlabotu funkcionalitāti un lietošanas ērtumu.",
+                "point2": "10.2. Lietotājs var iestatīt pārlūkprogrammas parametrus, lai atspējotu sīkdatnes, tomēr tas var ietekmēt vietnes darbību."
+              }
+            },
+            "programma": {
+              "title": "11. Priekšrocības un programmas lojalitāte",
+              "texts": {
+                "point1": "11.1. Dalība lojalitātes programmā ļauj lietotājiem uzkrāt bonusa punktus par pirkumiem, kurus var apmainīt pret atlaidēm vai citiem ieguvumiem.",
+                "point2": "11.2. Bonusa punktus nevar apmainīt pret skaidru naudu un tie tiek anulēti pārkāpumu gadījumā.",
+                "point3": "11.3. Uzņēmums patur tiesības mainīt bonusa punktu piešķiršanas un izmantošanas nosacījumus, informējot par to lietotājus caur vietni vai aplikāciju."
+              }
+            },
+            "dati": {
+              "title": "12. Personas datu apstrāde",
+              "texts": {
+                "point1": "12.1. Personas dati, kas savākti lojalitātes programmas ietvaros, tiks izmantoti, lai uzlabotu pakalpojumu kvalitāti, sniegtu personalizētus piedāvājumus un mārketinga komunikācijas.",
+                "point2": "12.2. Lietotājam ir tiesības piekļūt saviem personas datiem, tos labot, dzēst un ierobežot to apstrādi.",
+                "point3": "12.3. Ja tiek atklātas nesakritības sniegtajos datos, uzņēmums ir tiesīgs apturēt vai pārtraukt lietotāja dalību lojalitātes programmā."
+              }
+            },
+            "dalibas": {
+              "title": "13. Dalības izbeigšana",
+              "texts": {
+                "point1": "13.1. Lietotājs var izbeigt dalību lojalitātes programmā jebkurā laikā, nosūtot atbilstošu pieprasījumu atbalsta dienestam.",
+                "point2": "13.2. Uzņēmums patur tiesības izbeigt lietotāja dalību lojalitātes programmā pārkāpumu vai aizdomu par krāpniecību gadījumā.",
+                "point3": "13.3. Dalības izbeigšanas gadījumā visi uzkrātie bonusa punkti tiek anulēti."
+              }
+            },
+            "jur": {
+              "title": "Šis Līgums nodrošina gan lietotāju aizsardzību, gan arī uzņēmuma juridisko atbilstību Latvijas Republikas likumdošanai."
+            }
+          }
+        }
+  }

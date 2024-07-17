@@ -1,0 +1,102 @@
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: all 0.3s ease;
+    padding: 10px 25px;
+    z-index: 990;
+  }
+  
+  .header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2A7AB1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 995;
+    padding: 0.5rem 1rem;
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .header.shrunk {
+      padding: 0.25rem 0.5rem;
+    }
+  }
+
+  .menu{
+    position: absolute;
+    z-index: 997;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #71A602;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .burger{
+    width: 100%;
+    
+  }
+  .burger::after{
+    content: '';
+    position: relative;
+    display: block;
+    width: 40%;
+    background-color: white;
+    height: 1px;
+    margin: auto;
+    top: -4px;
+    transition: all 0.3s ease-in;
+  }
+
+  .burger::before{
+    content: '';
+    position: relative;
+    display: block;
+    width: 40%;
+    background-color: white;
+    height: 1px;
+    margin: auto;
+    top: 4px;
+    transition: all 0.3s ease-in;
+  }
+
+  .burgerActive::after {
+    top: 0; 
+    transform: rotate(45deg); 
+  }
+  
+  .burgerActive::before {
+    top: 0; 
+    transform: rotate(-45deg); 
+  }
+
+  .mobileMenu{
+    position: fixed;
+    z-index: 996;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 70vw;
+    background-color: #064E77;
+    color: white;
+  }
+  .menuBody{
+    padding: 15%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 12px;
+    margin-top: 40%;
+  }
+
+  @media screen and (min-width: 975px) {
+    .menu {
+      display: none;
+  
+    }
+  }
